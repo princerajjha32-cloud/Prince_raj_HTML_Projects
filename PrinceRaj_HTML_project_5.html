@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yash Soni Project 5</title>
+</head>
+<body>
+    <h1>Student Data Collection Form</h1>
+    <p><strong>Please fill all the details carefully.</strong> All fields are mandatory. Make sure information is correct.</p>
+
+    <h2>Personal Information</h2>
+    <form>
+        Full Name: <input type="text" name="fullname"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        Age: <input type="number" name="age"><br><br>
+        Date of Birth: <input type="date" name="dob"><br><br>
+        Upload Photo: <input type="file" name="photo"><br><br>
+
+        <h2>Academic Information</h2>
+        Branch: 
+        <select name="branch">
+            <option>BCA</option>
+            <option>B.Tech</option>
+        </select><br><br>
+
+        Skills: 
+        <input type="checkbox" name="skills" value="HTML">HTML
+        <input type="checkbox" name="skills" value="CSS">CSS
+        <input type="checkbox" name="skills" value="JavaScript">JavaScript
+        <input type="checkbox" name="skills" value="Python">Python<br><br>
+
+        Select Year: 
+        <select name="year">
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select><br><br>
+
+        Portfolio URL: <input type="url" name="portfolio"><br><br>
+        Study Time: <input type="time" name="studytime"><br><br>
+        Preferred Week: <input type="week" name="week"><br><br>
+        Preferred Month: <input type="month" name="month"><br><br>
+        Date & Time of Admission: <input type="datetime-local" name="admission"><br><br>
+
+        <h2>Feedback Section</h2>
+        Rate Your HTML Knowledge (0-10): <input type="range" min="0" max="10" name="rating"><br><br>
+        Write Your Feedback: <textarea name="feedback"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <p><strong>Thank you for registering!</strong> We will contact you soon.</p>
+</body>
+</html>
